@@ -32,7 +32,7 @@ def click(event):
 
 input_val = tk.StringVar()
 input_val.set('')
-insert_num = tk.Entry(root, textvariable=input_val, font='lucida 39 bold',)
+insert_num = tk.Entry(root, textvariable=input_val, font='lucida 40 bold',)
 insert_num.pack(fill='both', ipadx=8, padx=10, pady=10)
 
 f = tk.Frame(root, bg='grey')
