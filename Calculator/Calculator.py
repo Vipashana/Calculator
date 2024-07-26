@@ -17,8 +17,7 @@ def click(event):
                 value = eval(insert_num.get())
             except Exception as e:
                 print(e)
-                input_val.set('Error')
-                insert_num.update()
+                value = 'Error'
 
         input_val.set(value)
         insert_num.update()
